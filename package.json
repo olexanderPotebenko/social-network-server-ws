@@ -1,0 +1,26 @@
+{
+  "name": "social-network-server-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olexanderPotebenko/social-network-server-ws.git"
+  },
+  "author": "olexanderPotebenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olexanderPotebenko/social-network-server-ws/issues"
+  },
+  "homepage": "https://github.com/olexanderPotebenko/social-network-server-ws#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.13",
+    "nodemon": "^2.0.6",
+    "ws": "^7.4.0"
+  }
+}
